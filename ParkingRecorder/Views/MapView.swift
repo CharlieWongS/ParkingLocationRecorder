@@ -182,6 +182,7 @@ extension MapView {
                 Image(systemName: "car.fill")
             })
             .padding(2)
+            .padding(.bottom, 10)
 
 //             Bike button
             lm.modeButton(selection: .bike, label: {
